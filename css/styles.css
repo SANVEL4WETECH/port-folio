@@ -93,6 +93,7 @@ p {
   border-left: 10px solid #ECECEC;
 }
 
+
 /*
 .scroll-down{
 
@@ -358,7 +359,7 @@ display: block;
 */
 @media only screen and (max-width: 525px) {
   .about-layout {
-    margin-top: 52%;
+    margin-top: 40%;
     line-height: 1.5;
   }
 
@@ -496,18 +497,7 @@ display: block;
   text-align: center;
 }
 
-@media screen and (max-width:576px) {
-  .social-apps {
-    display: flex;
-    justify-content: left;
-  }
 
-  .copy-right {
-    color: #B2B2B2;
-    margin: 0 0 0 7px;
-    text-align: left;
-  }
-}
 
 .help-section {
   background-color: #ECECEC;
@@ -515,33 +505,6 @@ display: block;
   margin-top: 100px;
 }
 
-.send-email-fixed {
-  background-color: #379237;
-  display: inline;
-  padding: 5px 16px;
-  border-radius: 50px;
-  position: fixed;
-  right: 2%;
-  bottom: 4%;
-  justify-content: space-between;
-  z-index: 1;
-  transition: .5s;
-}
-
-.send-email-fixed:hover {
-  background-color: red;
-  transition: .5s;
-}
-
-.send-email-href {
-  text-decoration: none;
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.send-email-href:hover {
-  color: white;
-}
 
 .footer-section {
   height: 50vh;
